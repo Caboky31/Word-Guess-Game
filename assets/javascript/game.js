@@ -13,8 +13,8 @@ let wrongKeys = [];
 // Everything about this  line is a variable ********************************************
 
 // This add an _ to each letter in chosen word
-for (var n = 0; n < nameLength; n++) {
-    correctNumSpace[n] = "_ ";
+for (var i = 0; n < nameLength; i++) {
+    correctNumSpace[i] = "_ ";
 }
 // This add it to the HTML page
 document.getElementById("blankAnswer").innerHTML = correctNumSpace.join("");
