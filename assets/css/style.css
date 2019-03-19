@@ -1,0 +1,42 @@
+body {
+    background-image: url("../images/blacklodge.jpg");
+    color:red;
+    align-content: center;
+  
+  }
+ 
+  .container{
+      text-align: center;
+  }
+
+  h1{
+      font-size: 60px;
+      font-weight: bold;
+      -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+  }
+
+  h2{
+      font-size: 50px;
+      -webkit-text-stroke-width: 3px;
+      -webkit-text-stroke-color: black;
+  }
+
+  p{
+      font-size: 30px;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: black;
+  }
+
+#blankAnswer {
+    font-size: 50px;
+    -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: black;
+}
+
+#wrongLetter{
+    font-size: 40px;
+    -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: black;
+
+}
