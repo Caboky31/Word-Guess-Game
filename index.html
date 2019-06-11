@@ -17,8 +17,13 @@
 <body>
 
     <div class="container">
-        <audio id="tpMusic" controls autoplay="autoplay">
+        <audio id="tpMusic" loop="loop"  autoplay="autoplay">
             <source src="assets/Music/tptheme.mp3">
+                <script type="text/javascript">
+                    window.onload=function(){
+                      document.getElementById("tpMusic").play();
+                    }
+                  </script>
         </audio>
 
 
